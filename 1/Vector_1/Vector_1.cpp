@@ -17,13 +17,13 @@ int main() {
 
 	for (int i = 0; i < vectorUser; i++) {
 		int index;
-		std::cout << "Введите номер вектора ";
+		std::cout << "Введите номер вектора " << i + 1;
 		std::cin >> index;
 		userV.push_back(index);
 	}
 
 	for (int i = 0; i < vectorUser; i++) {
-		std::cout << "Вектор =  " << i << " " << userV[i] << std::endl;
+		std::cout << "Вектор " << i + 1 << " = " << userV[i] << std::endl;
 	}
 
 
