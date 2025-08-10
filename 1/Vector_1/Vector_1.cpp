@@ -36,8 +36,10 @@ int main() {
 		userV.push_back(index);
 	}
 
+	std::cout << "Идет подсчет. Подождите!" << std::endl;
+	std::this_thread::sleep_for(std::chrono::seconds(2));
+
 	for (int i = 0; i < vectorUser; i++) {
-		std::cout << "Идет подсчет. Подождите!" << std::endl;
 		std::cout << "Вектор " << i + 1 << " = " << userV[i] << std::endl;
 	}
 
