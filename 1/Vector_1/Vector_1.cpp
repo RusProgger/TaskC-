@@ -17,7 +17,7 @@ int main() {
 
 	for (int i = 0; i < vectorUser; i++) {
 		int index;
-		/*std::cout << "Введите номер вектора "*/
+		std::cout << "Введите номер вектора ";
 		std::cin >> index;
 		userV.push_back(index);
 	}
