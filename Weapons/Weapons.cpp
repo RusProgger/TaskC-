@@ -2,7 +2,7 @@
 #include <random>
 
 void WeaponsStateAK74() {
-	std::cout << "Cостояние АК74: ";
+	std::cout << "Cостояние АК74 ";
 }
 
 
@@ -28,16 +28,16 @@ int main() {
 
 	if (randomNumber >= 80 && randomNumber <= 100) {
 		WeaponsStateAK74();
-		std::cout << "Отличное состояние: " << randomNumber << std::endl;
+		std::cout << "состояние: " << randomNumber << std::endl;
 	}
 	else if (randomNumber >= 50 && randomNumber <= 79) {
 		WeaponsStateAK74();
-		std::cout << "Состояние среднее: " << randomNumber << std::endl;
+		std::cout << "среднее: " << randomNumber << std::endl;
 		
 	}
 	else {
 		WeaponsStateAK74();
-		std::cout << "Требуется ремонт: " << randomNumber << std::endl;
+		std::cout << "требуется ремонт: " << randomNumber << std::endl;
 	}
 
 	
