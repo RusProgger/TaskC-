@@ -17,8 +17,12 @@ int main() {
 
 	for (int i = 0; i < vectorUser; i++) {
 		int index;
-		std::cout << "Введите номер вектора " << i + 1;
-		std::cin >> index;
+		std::cout << "Введите номер вектора " << i + 1 << ": ";
+		while(!(std::cin >> index)) {
+			std::cin.clear();
+			std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+			std::cout << "Неверный ввод, попробуйте снова: ";
+		}
 		userV.push_back(index);
 	}
 
