@@ -26,7 +26,7 @@ int main() {
 		while(!(std::cin >> index)) {
 			std::cin.clear();
 			std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-			std::cout << "Неверный ввод, ввод должен быть только из числ: ";
+			std::cout << "Неверный ввод, введите только целое число: ";
 		}
 		userV.push_back(index);
 	}
