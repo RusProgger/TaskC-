@@ -37,6 +37,7 @@ int main() {
 	}
 
 	for (int i = 0; i < vectorUser; i++) {
+		std::cout << "Идет подсчет. Подождите!" << std::endl;
 		std::cout << "Вектор " << i + 1 << " = " << userV[i] << std::endl;
 	}
 
