@@ -30,7 +30,8 @@ int main() {
 		std::cout << "Вектор " << i + 1 << " = " << userV[i] << std::endl;
 	}
 
-
+	std::cout << "Нажмите Enter для выхода...";
+	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 	std::cin.get();
 	return 0;
 }
