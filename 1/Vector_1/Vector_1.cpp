@@ -17,6 +17,9 @@ int main() {
 		std::cin.clear();
 		std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 		// Добавляем задержку
+
+		std::this_thread::sleep_for(std::chrono::seconds(1));
+
 		std::cout << "Ошибка! Введите целое число: ";
 	}
 
