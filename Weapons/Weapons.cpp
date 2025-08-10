@@ -5,14 +5,13 @@ void WeaponsStateAK74() {
 	std::cout << "Cостояние АК74 ";
 }
 
-
+// Функция рандом
 int RandomWeaponsState() {
 	std::random_device rd;                        
 	std::mt19937 gen(rd());                       
 	std::uniform_int_distribution<> dist(1, 100); 
 	return dist(gen);
 }
-
 
 
 int main() {
@@ -26,21 +25,26 @@ int main() {
 	// Проверка оружия на состояние
 
 
-	if (randomNumber >= 80 && randomNumber <= 100) {
+	if (randomNumber >= 92 ) {
 		WeaponsStateAK74();
-		std::cout << "состояние: " << randomNumber << std::endl;
+		std::cout << "отличное: " << randomNumber << "%" << std::endl;
 	}
-	else if (randomNumber >= 50 && randomNumber <= 79) {
+
+	else if (randomNumber >= 73) {
 		WeaponsStateAK74();
-		std::cout << "среднее: " << randomNumber << std::endl;
-		
+		std::cout << "нормальное: " << randomNumber << "%" << std::endl;
+	}
+
+	else if (randomNumber >= 40) {
+		WeaponsStateAK74();
+		std::cout << "среднее: " << randomNumber << "%" << std::endl;
 	}
 	else {
 		WeaponsStateAK74();
-		std::cout << "требуется ремонт: " << randomNumber << std::endl;
+		std::cout << "требуется ремонт: " << randomNumber << "%" << std::endl;
 	}
 
-	
+	std::cout << "Для выхода нажмите любую клавишу...";
 
 	std::cin.get();
 	return 0;
