@@ -11,7 +11,12 @@ int main() {
 	std::vector<int> userV;
 
 	std::cout << "Введите кол-во цифр: ";
-	std::cin >> vectorUser;
+
+	while (!(std::cin >> vectorUser)) {
+		std::cin.clear();
+		std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+		std::cout << "Ошибка! Введите целое число: ";
+	}
 
 	// цикл попыток 
 
@@ -21,7 +26,7 @@ int main() {
 		while(!(std::cin >> index)) {
 			std::cin.clear();
 			std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-			std::cout << "Неверный ввод, попробуйте снова: ";
+			std::cout << "Неверный ввод, ввод должен быть только из числ: ";
 		}
 		userV.push_back(index);
 	}
