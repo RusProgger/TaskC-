@@ -69,7 +69,7 @@ int main() {
 		std::cout << productItem << " = " << priceItem << std::endl;
 	}
 
-	
+	std::cout << "Для выхода нажмите любую клавишу...";
 
 	std::cin.get();
 	return 0;
