@@ -68,7 +68,7 @@ int main() {
 	for (const auto& [productItem, priceItem] : product) {
 		std::cout << productItem << " = " << priceItem << std::endl;
 	}
-
+	std::cout << " Кол-во элементов:  " << product.size() << std::endl;
 	std::cout << "Для выхода нажмите любую клавишу...";
 
 	std::cin.get();
