@@ -71,7 +71,6 @@ int main() {
 	std::cout << "Кол-во элементов:  " << product.size() << std::endl;
 	std::cout << "Для выхода нажмите любую клавишу...";
 
-	const std::string name{ "Ruslan" };
 
 	std::cin.get();
 	return 0;
