@@ -65,6 +65,12 @@ int main() {
 		product[prod] = price;
 	}
 
+	for (const auto& [productItem, priceItem] : product) {
+		std::cout << productItem << " = " << priceItem << std::endl;
+	}
+
+	
+
 	std::cin.get();
 	return 0;
 }
