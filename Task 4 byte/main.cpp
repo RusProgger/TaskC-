@@ -14,6 +14,12 @@ int main() {
     
     int size;
 
+    // double arr[size];
+
+    // std::cout << "Адрес: " << static_cast<const void*>(arr) << " ";
+    // std::cout << "Размер (байт): " << sizeof(arr) << std::endl;
+
+
     std::cout << "Enter size array: ";
     std::cin >> size;
 
