@@ -16,9 +16,16 @@ int main() {
     std::cout << "Enter size array: ";
     std::cin >> size;
 
-    int arr[size];
+    if (size <= 0) {
+        std::cerr << "Invalid array size.\n";
+        return 1;
+    }
 
+    int* arr = new int[size];
 
     std::cout << "Adress array: " << static_cast<const void*>(arr) << std::endl;
-    std::cout << "Size array: " << sizeof(arr) << std::endl;
+    std::cout << "Size array: " << size * sizeof(int) << std::endl;
+
+    delete[] arr;
+    arr = nullptr;
 }
