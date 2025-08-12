@@ -32,6 +32,8 @@ int main() {
 
     std::cout << "Adress array: " << static_cast<const void*>(arr) << std::endl;
     std::cout << "Size array: " << size * sizeof(int) << std::endl;
+    std::cout << "Array: " << *arr << std::endl;
+
 
     delete[] arr;
     arr = nullptr;
