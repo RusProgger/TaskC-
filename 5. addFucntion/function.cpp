@@ -8,12 +8,14 @@ unsigned int myAdd(int a, int b) {
     
     if(a > b) {
         std::cout << a << std::endl;
+        return a;
     } else {
         std::cout << b << std::endl;
+        return b;
     }
 }
 
 int main() {
 
-    
+    myAdd(10, 15);
 }
