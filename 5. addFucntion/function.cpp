@@ -23,4 +23,7 @@ int main() {
     int Myf4 = myAdd(90, 130);
 
     std::cout << "Fuction 1: " << Myf1 << std::endl;
+    std::cout << "Fuction 2: " << Myf2 << std::endl;
+    std::cout << "Fuction 3: " << Myf3 << std::endl;
+    std::cout << "Fuction 4: " << Myf4 << std::endl;
 }
