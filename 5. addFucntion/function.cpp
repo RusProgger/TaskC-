@@ -17,5 +17,5 @@ unsigned int myAdd(int a, int b) {
 
 int main() {
 
-    myAdd(10, 15);
+    myAdd(10, 30);
 }
