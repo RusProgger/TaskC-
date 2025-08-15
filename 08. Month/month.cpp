@@ -16,7 +16,7 @@ int main() {
     } else if(month >= 9 && month < 12) {
         std::cout << "Autumn -  " <<  month << std::endl;
     } else {
-        std::cout << "Not" <<  month << std::endl;
+        std::cout << "Not " <<  month << std::endl;
     }
 
 }
