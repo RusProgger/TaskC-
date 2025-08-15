@@ -1,5 +1,22 @@
 #include <iostream>
 
 int main() {
-    
+
+    unsigned int month;
+
+    std::cout << "Enter number month 1-12: ";
+    std::cin >> month;
+
+    if(month >= 1 && month < 3 || month == 12) {
+        std::cout << "Winter -  " <<  month << std::endl;
+    } else if(month >= 3 && month < 6) {
+        std::cout << "Spring -  " <<  month << std::endl;
+    } else if(month >= 6 && month < 9) {
+        std::cout << "Summer -  " <<  month << std::endl;
+    } else if(month >= 9 && month < 12) {
+        std::cout << "Autumn -  " <<  month << std::endl;
+    } else {
+        std::cout << "Not" <<  month << std::endl;
+    }
+
 }
