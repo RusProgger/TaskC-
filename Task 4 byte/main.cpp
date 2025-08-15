@@ -38,4 +38,6 @@ int main() {
     arr = nullptr;
 
     std::cin.get();
+
+    return 0;
 }
