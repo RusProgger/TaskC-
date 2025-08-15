@@ -19,4 +19,5 @@ int main() {
         std::cout << "Invalid month: " <<  month << std::endl;
     }
 
+    return 0;
 }
