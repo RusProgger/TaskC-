@@ -36,4 +36,6 @@ int main() {
 
     delete[] arr;
     arr = nullptr;
+
+    std::cin.get();
 }
