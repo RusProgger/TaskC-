@@ -19,5 +19,6 @@ int main() {
         std::cout << "Invalid month: " <<  month << std::endl;
     }
 
+    std::cin.get();
     return 0;
 }
