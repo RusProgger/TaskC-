@@ -11,12 +11,12 @@ int enterNumber() {
     return number;
 }
 
-void numberEven() {
-    std::cout << "Even number ";
+void numberEven(int numb) {
+    std::cout << "Even number " << numb;
 }
 
-void numberOdd() {
-    std::cout << "Odd number ";
+void numberOdd(int numb) {
+    std::cout << "Odd number " << numb;
 }
 
 int main() {
@@ -36,9 +36,9 @@ int main() {
     int numberTitle = enterNumber();
 
     if(numberTitle % 2 != 0) {
-        numberOdd();
+        numberOdd(numberTitle);
     } else {
-        numberEven();
+        numberEven(numberTitle);
     }
 
     std::cin.get();
