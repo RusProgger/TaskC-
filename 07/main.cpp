@@ -16,5 +16,7 @@ int main() {
         std::cout << "Odd number = " << number;
     }
 
+    
+    std::cin.get();
     return 0;
 }
