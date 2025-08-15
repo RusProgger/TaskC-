@@ -16,4 +16,5 @@ int main() {
         std::cout << "Odd number = " << number;
     }
 
+    return 0;
 }
