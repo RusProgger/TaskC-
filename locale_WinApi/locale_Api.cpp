@@ -13,5 +13,5 @@ int main() {
     localeWinApi();
     std::cout << "Привет, это вызов функции localeWinApi." << std::endl;
 
-    
+    return 0;
 }
