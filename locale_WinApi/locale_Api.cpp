@@ -9,8 +9,11 @@ void localeWinApi() {
 
 
 int main() {
-
     localeWinApi();
+    int age {0};
+    std::cout << "Введите ваш возраст: ";
+    std::cin >> age;
+    
     std::cout << "Привет, это вызов функции localeWinApi." << std::endl;
 
     return 0;
