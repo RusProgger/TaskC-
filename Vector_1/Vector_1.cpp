@@ -43,7 +43,7 @@ int main() {
 		std::cout << "Вектор " << i + 1 << " = " << userV[i] << std::endl;
 	}
 
-	std::cout << "Нажмите Enter для выхода...";
+	std::cout << "Нажмите Enter для выхода из программы...";
 	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 	std::cin.get();
 	return 0;
