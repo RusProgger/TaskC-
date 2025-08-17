@@ -37,7 +37,7 @@ int main() {
 	}
 
 	std::cout << "Идет подсчет. Подождите!" << std::endl;
-	std::this_thread::sleep_for(std::chrono::seconds(2));
+	std::this_thread::sleep_for(std::chrono::milliseconds(2300));
 
 	for (int i = 0; i < vectorUser; i++) {
 		std::cout << "Вектор " << i + 1 << " = " << userV[i] << std::endl;
