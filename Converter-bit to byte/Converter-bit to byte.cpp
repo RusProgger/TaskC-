@@ -7,10 +7,18 @@ void localeWinApi() {
     SetConsoleCP(1251);       
 }
 
+void MessageTextWelcome() {
+    std::cout << "Добро пожаловать. ";
+}
+
 int main() {
     
     // локаль 
     localeWinApi();
+    
+    // Приветствие 
+    MessageTextWelcome();
+
 
 
     return 0;
