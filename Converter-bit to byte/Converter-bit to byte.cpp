@@ -8,13 +8,15 @@ void localeWinApi() {
 }
 
 void MessageTextWelcome() {
-    std::cout << "Добро пожаловать. \n";
+    std::cout << "Добро пожаловать в конвертер. \n";
+    std::cout << "1 байт = 8 битам. \n";
 }
 
 int InputNumberBite(int* bite) {
     
     return *bite * 8;
 }
+
 
 int main() {
     
@@ -31,8 +33,8 @@ int main() {
     std::cin >> n;
 
     int t = InputNumberBite(&n);
-    std::cout << t << " байта";
-
+    std::cout << t << " бит" << std::endl;
+    std::cout << (t / 8) << " байт" << std::endl;
 
     return 0;
 }
