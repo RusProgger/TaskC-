@@ -10,12 +10,12 @@ int main() {
     float b = 2.5;
     std::string name = "Function";
 
-    int resFT = Test(a);
-    float resFT1 = Test(b);
+    int resFunInt = Test(a);
+    float resFunFloat = Test(b);
+    std::string resFunString = Test("Function text");
 
-
-    std::cout << resFT << std::endl;
-    std::cout << resFT1 << std::endl;
-
+    std::cout << resFunInt << std::endl;
+    std::cout << resFunFloat << std::endl;
+    std::cout << resFunString << std::endl;
     return 0;
 }
