@@ -36,8 +36,9 @@ int main() {
     std::cin >> n;
 
     int t = InputNumberBite(&n);
+    int b = InputInputNumberByte(&t);
     std::cout << t << " бит" << std::endl;
-    /*std::cout << (t / 8) << " байт" << std::endl;*/
+    std::cout << b << " байт" << std::endl;
 
     return 0;
 }
