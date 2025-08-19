@@ -1,8 +1,8 @@
 #include <iostream>
 
-int Test(int a);
-float Test(float b);
-std::string Test(std::string text);
+int Test(int a) {return a;};
+float Test(float b) {return b;};
+std::string Test(std::string text) {return text;};
 
 int main() {
 
