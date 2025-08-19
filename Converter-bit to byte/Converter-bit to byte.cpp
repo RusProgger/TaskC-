@@ -34,8 +34,8 @@ int main() {
     MessageTextWelcome();
     std::cout << "Введите число в битах: ";
     std::cin >> n;
-
-    std::cout << " --------------------------" << std::endl;
+    std::cout << std::endl;
+    std::cout << "--------------------------" << std::endl;
     int t = InputNumberBite(&n);
     int b = InputInputNumberByte(&t);
     std::cout << "Бит: = " << t  << std::endl;
