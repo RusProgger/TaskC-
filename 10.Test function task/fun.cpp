@@ -12,6 +12,8 @@ int main() {
 
     int resFT = Test(a);
 
+    
+    std::cout << resFT << std::endl;
 
 
     return 0;
