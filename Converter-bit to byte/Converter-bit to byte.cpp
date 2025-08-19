@@ -13,8 +13,11 @@ void MessageTextWelcome() {
 }
 
 int InputNumberBite(int* bite) {
-    
     return *bite * 8;
+}
+
+int InputInputNumberByte(int* byte) {
+    return *byte / 8;
 }
 
 
@@ -29,12 +32,12 @@ int main() {
 
     // Приветствие 
     MessageTextWelcome();
-    std::cout << "Введите число: ";
+    std::cout << "Введите число в битах: ";
     std::cin >> n;
 
     int t = InputNumberBite(&n);
     std::cout << t << " бит" << std::endl;
-    std::cout << (t / 8) << " байт" << std::endl;
+    /*std::cout << (t / 8) << " байт" << std::endl;*/
 
     return 0;
 }
