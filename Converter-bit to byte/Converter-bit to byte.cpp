@@ -35,9 +35,10 @@ int main() {
     std::cout << "Введите число в битах: ";
     std::cin >> n;
 
+    std::cout << " --------------------------" << std::endl;
     int t = InputNumberBite(&n);
     int b = InputInputNumberByte(&t);
-    std::cout << t << " бит" << std::endl;
+    std::cout << "Бит: = " << t  << std::endl;
     std::cout << b << " байт" << std::endl;
 
     return 0;
