@@ -11,11 +11,11 @@ int main() {
     std::string name = "Function";
 
     int resFT = Test(a);
-    float resFT = Test(b);
+    float resFT1 = Test(b);
 
 
     std::cout << resFT << std::endl;
-    std::cout << resFT << std::endl;
+    std::cout << resFT1 << std::endl;
 
     return 0;
 }
