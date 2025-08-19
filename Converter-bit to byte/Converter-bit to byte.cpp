@@ -25,21 +25,21 @@ int main() {
     
     // локаль 
     localeWinApi();
-    
+
     int n{ 0 };
-
-
 
     // Приветствие 
     MessageTextWelcome();
+
+
     std::cout << "Введите число в битах: ";
     std::cin >> n;
     std::cout << std::endl;
     std::cout << "--------------------------" << std::endl;
     int t = InputNumberBite(&n);
     int b = InputInputNumberByte(&t);
-    std::cout << "Бит: = " << t  << std::endl;
-    std::cout << b << " байт" << std::endl;
+    std::cout << "Бит = " << t  << std::endl;
+    std::cout << "Байт = " << b << std::endl;
 
     return 0;
 }
