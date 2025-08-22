@@ -41,6 +41,8 @@ int main() {
     std::cout << "Бит = " << t  << std::endl;
     std::cout << "Байт = " << b << std::endl;
 
+
+    std::cin.get();
     return 0;
 }
 
