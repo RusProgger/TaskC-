@@ -7,4 +7,6 @@ int main() {
     
     int res = (a * 10) + (a % 10);
     std::cout << res << std::endl;
+
+    return 0;
 }
