@@ -7,6 +7,6 @@ int main() {
     printf("%.2f\n", a);
     printf("%7.2f\n", b);
 
-    getchar(); 
+    getchar(); // Задержка
     return 0;
 }
