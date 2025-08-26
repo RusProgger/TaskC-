@@ -10,11 +10,14 @@ void funcLine() {
 
 int main() {
     int enterNumber;
+
     scanf("%o", &enterNumber);
-          funcLine();
+
+          funcLine(); // вывод функции
           printf("\n| десятичная        |%-10d|", enterNumber);
           printf("\n| восьмеричная      |%-10o|", enterNumber);
           printf("\n| шестнадцатеричная |%-10x|\n", enterNumber);
           funcLine();
+    
     return 0;
 }
