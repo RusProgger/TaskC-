@@ -17,7 +17,7 @@ int main() {
           printf("\n| десятичная        |%-10d|", enterNumber);
           printf("\n| восьмеричная      |%-10o|", enterNumber);
           printf("\n| шестнадцатеричная |%-10x|\n", enterNumber);
-          funcLine();
-    
+          funcLine(); // вывод функции
+
     return 0;
 }
