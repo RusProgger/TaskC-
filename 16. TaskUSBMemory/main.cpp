@@ -44,5 +44,6 @@ int main() {
     // Выводим результат
     cout << movies << " " << clips << " " << music << " " << texts << endl;
 
+    std::cin.get();
     return 0;
 }
