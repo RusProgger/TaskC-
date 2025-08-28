@@ -14,4 +14,6 @@ int main() {
     std::cout << resCandy << std::endl;
     std::cout << resTeacher << std::endl;
     std::cout << resDirector << std::endl;
+
+    return 0;
 }
