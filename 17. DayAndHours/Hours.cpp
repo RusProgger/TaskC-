@@ -13,8 +13,9 @@ int main() {
     // решение 
 
     int resDay = hours / DAY;
+    int resHours = hours % DAY;
 
-    std::cout << resDay;
+    std::cout << "Day = " << resDay << " hours: " << resHours;
 
     return 0;
 }
