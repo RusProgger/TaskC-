@@ -1,5 +1,7 @@
 #include <iostream>
 
+using namespace std;
+
 int main() {
 
     int number;
@@ -10,7 +12,7 @@ int main() {
 
     if(number > 0) {
         for(int n = 1; n <= number; n++) {
-           summa += n;
+           std::cout << (summa += n) << std::endl;
         }
     } else {
         std::cout << "Please enter a positive number." << std::endl;
