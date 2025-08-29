@@ -9,13 +9,13 @@ int main() {
     std::cin >> number;
 
     if(number > 0) {
-        for(int n = 0; n < number; n++) {
+        for(int n = 1; n < number; n++) {
            summa += n;
         }
     } else {
         std::cout << "Not a number";
     }
 
-    std::cout << "Summa " << summa << " = " << number << std::endl;
+    std::cout << "Summa " << number << " = " << summa << std::endl;
     return 0;
 }
