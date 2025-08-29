@@ -5,7 +5,7 @@ using namespace std;
 int main() {
 
     int number;
-    int summa = 0;
+    int summa {0};
 
     std::cout << "Enter number: ";
     std::cin >> number;
