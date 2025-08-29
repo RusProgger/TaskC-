@@ -13,7 +13,7 @@ int main() {
            summa += n;
         }
     } else {
-        std::cout << "Not a number" << std::endl;
+        std::cout << "Please enter a positive number." << std::endl;
     }
 
     std::cout << "Summa " << number << " = " << summa << std::endl;
