@@ -19,5 +19,6 @@ int main() {
     }
 
     std::cout << "Summa " << number << " = " << summa << std::endl;
+    std::cin.get();
     return 0;
 }
