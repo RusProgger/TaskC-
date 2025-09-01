@@ -12,6 +12,7 @@ int main() {
     }while(pin != 555);
     std::cout << "Login done\n";
 
+    std::cin.get();
     return 0;
 
 }
