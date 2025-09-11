@@ -11,6 +11,11 @@ int main() {
 
     double* arrs = new double[ArrsNumber];
 
+    for(int i = 0; i < ArrsNumber; i++) {
+        std::cout << "Введите массив:  ";
+        std::cin >> arrs[i];
+        std::cout << std::endl;
+    }
 
 
     // Освобождаем память
