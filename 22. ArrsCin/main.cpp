@@ -17,6 +17,9 @@ int main() {
         std::cout << std::endl;
     }
 
+    for(int i = 0; i < ArrsNumber; i++) {
+        std::cout << arrs[i] << std::endl;
+    }
 
     // Освобождаем память
 
