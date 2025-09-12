@@ -17,6 +17,7 @@ int main() {
 
     std::cout << "Day = " << resDay << " hours: " << resHours;
 
+    // Задержка 
     std::cin.get(); 
     return 0;
 }
