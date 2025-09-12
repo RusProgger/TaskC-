@@ -17,5 +17,7 @@ int main() {
     std::cout << resFunInt << std::endl;
     std::cout << resFunFloat << std::endl;
     std::cout << resFunString << std::endl;
+
+    std::cin.get();
     return 0;
 }
