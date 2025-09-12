@@ -17,5 +17,6 @@ int main() {
 
     std::cout << "Day = " << resDay << " hours: " << resHours;
 
+    std::cin.get(); 
     return 0;
 }
