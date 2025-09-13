@@ -8,5 +8,6 @@ int main() {
     int res = (a * 10) + (a % 10);
     std::cout << res << std::endl;
 
+    std::cin.get();
     return 0;
 }
