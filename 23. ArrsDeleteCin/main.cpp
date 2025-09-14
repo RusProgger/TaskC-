@@ -2,6 +2,7 @@
 
 int main() {
     int n;
+    std::cout << "Введите размер массива: ";
     std::cin >> n;
 
     if (n < 1 || n > 1000) {
@@ -22,7 +23,7 @@ int main() {
         }
     }
 
-    std::cout << maxVal << std::endl;
+    std::cout << "Вывод массива макс-числа: " << maxVal << std::endl;
     // Освобождаем память
     delete[] arr;
     // Обнуляем указатель (для хорошего тона)
