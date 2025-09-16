@@ -2,6 +2,7 @@
 
 
 int main() {
+    setlocale(LC_ALL, "rus");
     int age;
     std::cin >> age;
 
