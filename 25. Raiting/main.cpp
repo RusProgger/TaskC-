@@ -4,6 +4,7 @@
 int main() {
 
     int n; 
+    std::cout << "Number: ";
     std::cin >> n;
     std::cout << "Рейтинг игроков:\n";
 
