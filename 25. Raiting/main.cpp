@@ -10,7 +10,10 @@ int main() {
     for (int i = 0; i < n; ++i) {
         std::string name;
         int rating;
-        std::cin >> name >> rating;
+        std::cout << "User: ";
+        std::cin >> name;
+        std::cout << "Raiting ";
+        std::cin >> rating;
 
         std::cout << name << " ";
         for (int j = 0; j < rating; ++j) {
@@ -19,7 +22,7 @@ int main() {
 
         std::cout << "\n"; // вывод
     }
-    
+
     return 0;
 }
 
