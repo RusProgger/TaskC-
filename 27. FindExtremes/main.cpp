@@ -3,6 +3,10 @@ using namespace std;
 
 int main() {
     
+    // Локализация 
+
+    setlocale(LC_ALL, "russian");
+
     const int SIZE = 5;
     int numbers[SIZE];
 
