@@ -8,5 +8,12 @@ int main() {
 
     // цикл 
 
+    for(int i = 1; i <= forMax; i++) {
+        // вывод цикла 
+        std::cout << i << "\n";
+
+        
+    }
+
     return 0;
 }
