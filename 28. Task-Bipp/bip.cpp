@@ -12,7 +12,11 @@ int main() {
         // вывод цикла 
         std::cout << i << "\n";
 
-        
+        // проверка условий
+
+        if(i % 5 == 0) {
+            std::cout << beep << "\n";
+        }
     }
 
     return 0;
