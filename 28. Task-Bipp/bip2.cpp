@@ -3,7 +3,7 @@
 
 int main() {
 
-    int forMax;
+    unsigned int forMax;
 
     // Спрашиваем у пользователя ввод числа
 
