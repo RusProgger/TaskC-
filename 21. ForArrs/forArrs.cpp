@@ -26,7 +26,7 @@ int main() {
     }
 
     delete[] arrMax;
-    
+    arrMax = nullptr;
 
     return 0;
 }
