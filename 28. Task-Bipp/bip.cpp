@@ -3,7 +3,7 @@
 
 int main() {
 
-    int forMax = 13;
+    unsigned int forMax = 13;
     std::string beep = "Бип!!";
 
     // цикл 
