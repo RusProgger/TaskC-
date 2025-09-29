@@ -1,7 +1,9 @@
 #include <iostream>
-using namespace std;
+
+
 
 int main() {
+    
     int candy {2500};
     int student {789};
     int teacher {42};
