@@ -33,7 +33,7 @@ int main() {
     std::cout << "Adress array: " << static_cast<const void*>(arr) << std::endl;
     std::cout << "Size array: " << size * sizeof(int) << std::endl;
 
-
+    // освобождаем память
     delete[] arr;
     arr = nullptr;
 
