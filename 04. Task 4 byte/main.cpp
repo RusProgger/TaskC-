@@ -35,6 +35,7 @@ int main() {
 
     // освобождаем память
     delete[] arr;
+    // обнуляем указатель 
     arr = nullptr;
 
     std::cin.get();
