@@ -1,0 +1,41 @@
+# Игнорировать папку VS Code
+.vscode/
+.vs/
+
+# Игнорировать исполняемые файлы Windows
+*.exe
+
+# Игнорировать временные файлы
+*.log
+*.tmp
+
+# Игнорировать системные файлы
+.DS_Store
+Thumbs.db
+
+# ===== Visual Studio =====
+
+# Папки сборки и временные
+x64/
+Debug/
+Release/
+ipch/
+.vs/
+out/
+
+# Файлы кэша и отладочной информации
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.suo
+*.sdf
+*.cache
+*.VC.db
+*.VC.opendb
+
+# Файлы пользовательских настроек проекта
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
