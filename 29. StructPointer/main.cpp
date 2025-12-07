@@ -6,10 +6,18 @@
 
 */
 
-
+struct Pointer {
+    double x;
+    double y;
+};
 
 int main() {
 
+    std::locale::global(std::locale());
+
+    Pointer a, b;
+
+    std::cout << "";
 
 
     return 0;
