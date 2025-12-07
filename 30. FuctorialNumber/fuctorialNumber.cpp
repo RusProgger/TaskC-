@@ -17,7 +17,7 @@ int main() {
 
     while(count <= n) {
         res = res * count;
-        count = count + 1;
+        count += 1;
     }
 
     std::cout << "FuctorialNumber: " << res;
