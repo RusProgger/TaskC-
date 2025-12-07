@@ -6,9 +6,12 @@ int main() {
 
     std::locale::global(std::locale());
 
-    int n = 0; // хранит число, которое ввёл пользователь.
+    int n; // хранит число, которое ввёл пользователь.
     int res = 1; // результат факториала
     int count = 1; // счётчик
+
+    std::cout << "Input number: ";
+    std::cin >> n;
 
     // цикл 
 
