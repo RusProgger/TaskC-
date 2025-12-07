@@ -17,8 +17,18 @@ int main() {
 
     Pointer a, b;
 
-    std::cout << "";
+    std::cout << "Введите координаты точки x: ";
+    std::cin >> a.x >> a.y;
 
+    std::cout << "Введите координаты точки y: ";
+    std::cin >> b.x >> b.y;
 
+    // Формула расстояния между точками
+
+    double result = std::sqrt(std::pow(b.x - a.x, 2) + std::pow(b.y - a.y, 2));
+
+    // вывод результата 
+
+    
     return 0;
 }
