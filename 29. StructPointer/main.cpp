@@ -29,6 +29,9 @@ int main() {
 
     // вывод результата 
 
+    std::cout << "Расстояние между точками: " << result << std::endl;
+    
+    std::cin.get();
     
     return 0;
 }
