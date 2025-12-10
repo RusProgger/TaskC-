@@ -1,4 +1,5 @@
 #include <iostream>
+#define NOMINMAX
 #include <windows.h>
 #include <limits>
 
@@ -39,8 +40,10 @@ int main() {
     }
 
     std::cout << "Нажмите Enter для выхода..." << std::endl;
-    // первый способ 
+    // первый способ, нужно подключить макрос, Ошибка возникает из-за конфликта имён max, потому что в windows.h определён макрос, #define NOMINMAX
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    // Второй способ не всегда актуальный, лучше использовать 1 способ
+    std::cin.ignore((std::numeric_limits<std::streamsize>::max)(), '\n');
     std::cin.get();
     return 0;
 }
