@@ -1,5 +1,6 @@
 #include <iostream>
 #include <windows.h>
+#include <limits>
 
 
 void localeWinApi() {
@@ -37,7 +38,8 @@ int main() {
         functionAgeNo(age);
     }
 
-
+    std::cout << "Нажмите Enter для выхода..." << std::endl;
+    std::cin.ignore((std::numeric_limits<std::streamsize>::max)(), '\n');
     std::cin.get();
     return 0;
 }
