@@ -38,7 +38,6 @@ int main() {
     }
 
 
-   // std::cout << "Привет, это вызов функции localeWinApi." << std::endl;
     std::cin.get();
     return 0;
 }
