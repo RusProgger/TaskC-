@@ -17,6 +17,14 @@ class Person {
 
 int main()  {
 
+    Person person;
+    person.name = "Alex";
+    person.userAge = 30;
+
+    // вывод 
+
+    person.messageInfoUser();
+
     std::cin.get();
     return 0;
 }
