@@ -27,6 +27,8 @@ int main() {
     // проверка условий если пользователь введет не число
 
     if(!(std::cin >> age)) {
+        std::cin.clear(); // очищаем поток
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
         std::cout << "Ошибка! Введите числовое значение." << std::endl;
         return 1;
     }
