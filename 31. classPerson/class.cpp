@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 // Создадим класс Person
 
