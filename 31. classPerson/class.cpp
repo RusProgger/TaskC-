@@ -15,10 +15,25 @@ class Person {
 };
 
 
+// добавим класс User 
+
+class User {
+
+    public:
+    std::string city;
+    unsigned int addres;
+
+    void UserInfo() {
+        std::cout <<"User city: " << city << std::endl;
+        std::cout <<"User adress" << addres << std::endl;
+    }
+};
+
 int main()  {
 
     Person person;
     person.name = "Alex";
+    person.name = "Denis";
     person.userAge = 30;
 
     // вывод 
