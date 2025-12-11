@@ -40,6 +40,14 @@ int main()  {
 
     person.messageInfoUser();
 
+    std::cout << "-------------------------\n";
+
+    User userinfo;
+    userinfo.city = "Kiev";
+    userinfo.addres = 19;
+
+    userinfo.UserInfo();
+
     std::cin.get();
     return 0;
 }
