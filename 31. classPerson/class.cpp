@@ -28,7 +28,7 @@ class User {
     void UserInfo() {
         std::cout <<"User city: " << city << std::endl;
         std::cout <<"User adress" << addres << std::endl;
-        // std::cout << "User is married: "
+        std::cout << "User is married: " << std::endl;
     }
 };
 
