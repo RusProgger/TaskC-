@@ -48,6 +48,11 @@ int main()  {
     User userinfo;
     userinfo.city = "Kiev";
     userinfo.addres = 19;
+    userinfo.Ismarried = true;
+
+    userinfo.city = "Lviv";
+    userinfo.addres = 29;
+    userinfo.Ismarried = false;
 
     userinfo.UserInfo();
 
