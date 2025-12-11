@@ -23,11 +23,12 @@ class User {
     public:
     std::string city;
     unsigned int addres;
-    bool isMale;
+    bool married;
 
     void UserInfo() {
         std::cout <<"User city: " << city << std::endl;
         std::cout <<"User adress" << addres << std::endl;
+        // std::cout << "User is married: "
     }
 };
 
