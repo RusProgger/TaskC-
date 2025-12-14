@@ -3,7 +3,7 @@
 
 int main() {
 
-    // Day const 
+    // time number 
 
     unsigned short timeDay = 0;
 
