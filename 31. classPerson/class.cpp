@@ -13,6 +13,12 @@ class Person {
         std::cout << "User: " << name << std::endl;
         std::cout << "User age: " << userAge << std::endl;
     }
+
+     // Список инициализации
+
+     Person(std::string p_name, unsigned short p_userAge) : name{p_name} {
+        userAge = p_userAge;
+     }
 };
 
 
@@ -30,18 +36,25 @@ class User {
         std::cout <<"User adress" << addres << std::endl;
         std::cout << "User is married: " << std::endl;
     }
+
+   
+
+
 };
 
 int main()  {
 
-    Person person;
-    person.name = "Alex";
-    person.name = "Denis";
-    person.userAge = 30;
+    Person Ivan{"Ivan", 30};
+    
+    
+    // Person person;
+    // person.name = "Alex";
+    // person.name = "Denis";
+    // person.userAge = 30;
 
     // вывод 
 
-    person.messageInfoUser();
+    //person.messageInfoUser();
 
     std::cout << "-------------------------\n";
 
