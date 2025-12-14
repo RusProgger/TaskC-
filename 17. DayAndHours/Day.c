@@ -5,7 +5,7 @@ int main() {
 
     // Day const 
 
-    unsigned int timeDay = 0;
+    unsigned short timeDay = 0;
 
 
     return 0;
