@@ -19,8 +19,10 @@ int main() {
         printf("Day");
     } else if(timeDay >= 17 && timeDay <= 23) {
         printf("Evening");
+    } else {
+        printf("Error...");
     }
 
-
+    getchar();
     return 0;
 }
