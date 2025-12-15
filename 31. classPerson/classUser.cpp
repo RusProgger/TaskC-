@@ -20,17 +20,18 @@ class User {
     void InfoUser() {
         std::cout << "User: " << name << std::endl;
         std::cout << "Age: " << age << std::endl;
+        std::cout << "Cuty: " << city << std::endl;
     }
 
-    User(std::string pt_name, unsigned pt_age) : name(pt_name), age(pt_age) {};
+    User(std::string pt_name, unsigned pt_age, std::string p_city) : name(pt_name), age(pt_age), city(p_city) {};
 
 };
 
 
 int main() {
 
-    User Ivan("Ivan", 22);
-    User Kiril("Kirill", 40);
+    User Ivan("Ivan", 22, "Kiev");
+    User Kiril("Kirill", 40, "Lytsk");
 
     Ivan.InfoUser();
     Kiril.InfoUser();
