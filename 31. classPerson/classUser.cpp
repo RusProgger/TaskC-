@@ -18,9 +18,7 @@ class User {
         std::cout << "Age: " << age << std::endl;
     }
 
-    User(std::string pt_name, unsigned pt_age) : name{pt_name} {
-        age = pt_age;
-    }
+    User(std::string pt_name, unsigned pt_age) : name(pt_name), age(pt_age) {};
 
 };
 
@@ -30,7 +28,8 @@ int main() {
     User Ivan("Ivan", 22);
     User Kiril("Kirill", 40);
 
-    User InfoUser();
+    Ivan.InfoUser();
+    Kiril.InfoUser();
 
 
     
