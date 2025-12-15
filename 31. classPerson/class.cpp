@@ -8,12 +8,12 @@ class Person {
     public:
         std::string name;
         unsigned short userAge; 
-        std::string city;
+        //std::string city;
     
     void messageInfoUser() {
         std::cout << "User: " << name << std::endl;
-        std::cout << "User age: " << userAge << std::endl;
-        std::cout << "User city: " << city << std::endl;
+       // std::cout << "User age: " << userAge << std::endl;
+       // std::cout << "User city: " << city << std::endl;
     }
 
      // Список инициализации
