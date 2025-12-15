@@ -5,16 +5,24 @@
 
 class User {
 
-    // Имя пользователя user;
-    std::string name;
+    public:
+        // Имя пользователя user;
+        std::string name;
 
-    // Возраст пользователя 
+        // Возраст пользователя 
 
-    unsigned short age{};
+        unsigned short age{};
+    
+    void InfoUser() {
+        std::cout << "User: " << name << std::endl;
+        std::cout << "Age: " << age << std::endl;
+    }
 
+    User(std::string pt_name, unsigned pt_age) : name{pt_name} {
+        age = pt_age;
+    }
 
 };
-
 
 
 int main() {
