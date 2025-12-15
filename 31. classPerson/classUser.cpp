@@ -27,5 +27,12 @@ class User {
 
 int main() {
 
+    User Ivan("Ivan", 22);
+    User Kiril("Kirill", 40);
+
+    User InfoUser();
+
+
+    
     return 0;
 }
