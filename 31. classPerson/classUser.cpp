@@ -12,6 +12,10 @@ class User {
         // Возраст пользователя 
 
         unsigned short age{};
+
+        // Местоположение пользователя
+
+        std::string city;
     
     void InfoUser() {
         std::cout << "User: " << name << std::endl;
