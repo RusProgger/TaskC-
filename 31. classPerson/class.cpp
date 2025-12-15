@@ -8,6 +8,7 @@ class Person {
     public:
         std::string name;
         unsigned short userAge; 
+        std::string city;
     
     void messageInfoUser() {
         std::cout << "User: " << name << std::endl;
