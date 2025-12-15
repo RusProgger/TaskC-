@@ -32,9 +32,11 @@ int main() {
 
     User Ivan("Ivan", 22, "Kiev");
     User Kiril("Kirill", 40, "Lytsk");
+    User Denis("Denis", 31, "Dnepr");
 
     Ivan.InfoUser();
     Kiril.InfoUser();
+    Denis.InfoUser();
 
 
     
