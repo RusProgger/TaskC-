@@ -20,7 +20,7 @@ class User {
         bool Ismarried;
     
     void InfoUser() {
-        for(int i = 0; i < 15; i++) {
+        for(int i = 0; i < 40; i++) {
             std::cout << "*";
         }
         std::cout << std::endl;
@@ -29,10 +29,6 @@ class User {
         std::cout << "Age: " << age << std::endl;
         std::cout << "City: " << city << std::endl;
         std::cout << "IsMarried: " << Ismarried << std::endl;
-
-        for(int i = 0; i < 15; i++) {
-            std::cout << "*";
-        }
 
         std::cout << std::endl;
     }
