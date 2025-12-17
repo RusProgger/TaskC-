@@ -41,6 +41,7 @@ int main() {
     Ivan.InfoUser();
     Kiril.InfoUser();
     Denis.InfoUser();
+    Alex.InfoUser();
 
 
     
