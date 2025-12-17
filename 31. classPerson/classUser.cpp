@@ -28,7 +28,7 @@ class User {
         std::cout << "User: " << name << std::endl;
         std::cout << "Age: " << age << std::endl;
         std::cout << "City: " << city << std::endl;
-        std::cout << "IsMarried: " << ((Ismarried) ? "Not" : "Yes") << std::endl;
+        std::cout << "IsMarried: " << ((Ismarried) ? "Yes" : "No") << std::endl;
 
         std::cout << std::endl;
     }
