@@ -19,7 +19,7 @@ class User {
 
         bool Ismarried;
     
-    void InfoUser() {
+    void InfoUser() const {
         for(int i = 0; i < 40; i++) {
             std::cout << "*";
         }
@@ -28,7 +28,7 @@ class User {
         std::cout << "User: " << name << std::endl;
         std::cout << "Age: " << age << std::endl;
         std::cout << "City: " << city << std::endl;
-        std::cout << "IsMarried: " << Ismarried << std::endl;
+        std::cout << "IsMarried: " << ((Ismarried) ? "Not" : "Yes") << std::endl;
 
         std::cout << std::endl;
     }
@@ -56,6 +56,7 @@ int main() {
     Andrei.InfoUser();
     Mikhail.InfoUser();
 
+    std::cout << "Enter to exit...";
     std::cin.get();
     
     return 0;
