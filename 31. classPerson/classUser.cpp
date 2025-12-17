@@ -23,6 +23,7 @@ class User {
         std::cout << "User: " << name << std::endl;
         std::cout << "Age: " << age << std::endl;
         std::cout << "City: " << city << std::endl;
+        std::cout << "IsMarried: " << Ismarried << std::endl;
     }
 
     User(std::string pt_name, unsigned pt_age, std::string p_city, bool p_Ismarried) : name(pt_name), age(pt_age), city(p_city), Ismarried(p_Ismarried) {};
@@ -32,13 +33,13 @@ class User {
 
 int main() {
 
-    User Ivan("Ivan", 22, "Kiev", "Not");
+    User Ivan("Ivan", 22, "Kiev", true);
     User Kiril("Kirill", 40, "Lytsk", false);
     User Denis("Denis", 31, "Dnepr", false);
-    User Alex("Alex", 32, "Odessa", );
-    User Dima("Dima", 25, "Odessa");
-    User Andrei("Andrei", 31, "Cherson");
-    User Mikhail("Mikhail", 42, "Zaporozhe");
+    User Alex("Alex", 32, "Odessa", true);
+    User Dima("Dima", 25, "Odessa", true);
+    User Andrei("Andrei", 31, "Cherson", true);
+    User Mikhail("Mikhail", 42, "Zaporozhe", true);
 
     Ivan.InfoUser();
     Kiril.InfoUser();
