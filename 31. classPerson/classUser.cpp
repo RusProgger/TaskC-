@@ -56,7 +56,7 @@ int main() {
     Andrei.InfoUser();
     Mikhail.InfoUser();
 
-
+    std::cin.get();
     
     return 0;
 }
