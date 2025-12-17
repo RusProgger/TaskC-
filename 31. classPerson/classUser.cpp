@@ -1,5 +1,5 @@
 #include <iostream>
-#include <vector>
+// #include <vector>
 
 // Cоздадим класс User
 
