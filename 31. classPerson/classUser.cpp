@@ -1,23 +1,15 @@
 #include <iostream>
-// #include <vector>
 
 // Cоздадим класс User
-
 class User {
 
     public:
-        // Имя пользователя user;
-        std::string name;
-
-        // Возраст пользователя 
-
-        unsigned short age{};
-
-        // Местоположение пользователя
-
-        std::string city;
-
-        bool Ismarried;
+        User(const std::string &name, 
+        unsigned age, 
+        std::string city, 
+        bool isMarried) 
+        : name(name), age(age), city(city), Ismarried(isMarried) {};
+        
     
     void InfoUser() const {
         for(int i = 0; i < 40; i++) {
@@ -33,7 +25,13 @@ class User {
         std::cout << std::endl;
     }
 
-    User(std::string pt_name, unsigned pt_age, std::string p_city, bool p_Ismarried) : name(pt_name), age(pt_age), city(p_city), Ismarried(p_Ismarried) {};
+    
+
+    private:
+        std::string name;
+        unsigned short age{};
+        std::string city;
+        bool Ismarried;
 
 };
 
