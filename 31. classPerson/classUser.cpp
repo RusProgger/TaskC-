@@ -16,6 +16,8 @@ class User {
         // Местоположение пользователя
 
         std::string city;
+
+        bool Ismarried;
     
     void InfoUser() {
         std::cout << "User: " << name << std::endl;
@@ -23,17 +25,17 @@ class User {
         std::cout << "City: " << city << std::endl;
     }
 
-    User(std::string pt_name, unsigned pt_age, std::string p_city) : name(pt_name), age(pt_age), city(p_city) {};
+    User(std::string pt_name, unsigned pt_age, std::string p_city, bool p_Ismarried) : name(pt_name), age(pt_age), city(p_city), Ismarried(p_Ismarried) {};
 
 };
 
 
 int main() {
 
-    User Ivan("Ivan", 22, "Kiev");
-    User Kiril("Kirill", 40, "Lytsk");
-    User Denis("Denis", 31, "Dnepr");
-    User Alex("Alex", 32, "Odessa");
+    User Ivan("Ivan", 22, "Kiev", "Not");
+    User Kiril("Kirill", 40, "Lytsk", false);
+    User Denis("Denis", 31, "Dnepr", false);
+    User Alex("Alex", 32, "Odessa", );
     User Dima("Dima", 25, "Odessa");
     User Andrei("Andrei", 31, "Cherson");
     User Mikhail("Mikhail", 42, "Zaporozhe");
