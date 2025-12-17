@@ -34,6 +34,9 @@ int main() {
     User Kiril("Kirill", 40, "Lytsk");
     User Denis("Denis", 31, "Dnepr");
     User Alex("Alex", 32, "Odessa");
+    User Dima("Dima", 25, "Odessa");
+    User Andrei("Andrei", 31, "Cherson");
+    User Alex("Alex", 32, "Odessa");
 
     Ivan.InfoUser();
     Kiril.InfoUser();
