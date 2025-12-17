@@ -20,10 +20,21 @@ class User {
         bool Ismarried;
     
     void InfoUser() {
+        for(int i = 0; i < 15; i++) {
+            std::cout << "*";
+        }
+        std::cout << std::endl;
+
         std::cout << "User: " << name << std::endl;
         std::cout << "Age: " << age << std::endl;
         std::cout << "City: " << city << std::endl;
         std::cout << "IsMarried: " << Ismarried << std::endl;
+
+        for(int i = 0; i < 15; i++) {
+            std::cout << "*";
+        }
+
+        std::cout << std::endl;
     }
 
     User(std::string pt_name, unsigned pt_age, std::string p_city, bool p_Ismarried) : name(pt_name), age(pt_age), city(p_city), Ismarried(p_Ismarried) {};
