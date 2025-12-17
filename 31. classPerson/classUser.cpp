@@ -10,7 +10,6 @@ class User {
         bool isMarried) 
         : name(name), age(age), city(city), Ismarried(isMarried) {};
         
-    
     void InfoUser() const {
         for(int i = 0; i < 40; i++) {
             std::cout << "*";
@@ -24,8 +23,6 @@ class User {
 
         std::cout << std::endl;
     }
-
-    
 
     private:
         std::string name;
