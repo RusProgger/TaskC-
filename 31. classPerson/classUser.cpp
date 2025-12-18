@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 // Cоздадим класс User
 class User {
@@ -35,21 +36,26 @@ class User {
 
 int main() {
 
-    User Ivan("Ivan", 22, "Kiev", true);
-    User Kiril("Kirill", 40, "Lytsk", false);
-    User Denis("Denis", 31, "Dnepr", false);
-    User Alex("Alex", 32, "Odessa", true);
-    User Dima("Dima", 25, "Odessa", true);
-    User Andrei("Andrei", 31, "Cherson", true);
-    User Mikhail("Mikhail", 42, "Zaporozhe", true);
+    // User Ivan("Ivan", 22, "Kiev", true);
+    // User Kiril("Kirill", 40, "Lytsk", false);
+    // User Denis("Denis", 31, "Dnepr", false);
+    // User Alex("Alex", 32, "Odessa", true);
+    // User Dima("Dima", 25, "Odessa", true);
+    // User Andrei("Andrei", 31, "Cherson", true);
+    // User Mikhail("Mikhail", 42, "Zaporozhe", true);
 
-    Ivan.InfoUser();
-    Kiril.InfoUser();
-    Denis.InfoUser();
-    Alex.InfoUser();
-    Dima.InfoUser();
-    Andrei.InfoUser();
-    Mikhail.InfoUser();
+    std::vector<User> users;
+
+    
+
+
+    // Ivan.InfoUser();
+    // Kiril.InfoUser();
+    // Denis.InfoUser();
+    // Alex.InfoUser();
+    // Dima.InfoUser();
+    // Andrei.InfoUser();
+    // Mikhail.InfoUser();
 
     std::cout << "Enter to exit...";
     std::cin.get();
