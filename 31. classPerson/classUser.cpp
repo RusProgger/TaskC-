@@ -48,11 +48,11 @@ int main() {
 
     users.emplace_back("Ivan", 22, "Kiev", true);
     users.emplace_back("Kirill", 40, "Lytsk", false);
-    users.emplace_back("Ivan", 22, "Kiev", true);
-    users.emplace_back("Ivan", 22, "Kiev", true);
-    users.emplace_back("Ivan", 22, "Kiev", true);
-    users.emplace_back("Ivan", 22, "Kiev", true);
-
+    users.emplace_back("Denis", 31, "Dnepr", false);
+    users.emplace_back("Alex", 32, "Odessa", true);
+    users.emplace_back("Dima", 25, "Odessa", true);
+    users.emplace_back("Andrei", 31, "Cherson", true);
+    users.emplace_back("Mikhail", 42, "Zaporozhe", true);
 
     // Ivan.InfoUser();
     // Kiril.InfoUser();
