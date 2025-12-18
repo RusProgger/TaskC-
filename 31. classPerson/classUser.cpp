@@ -54,6 +54,8 @@ int main() {
     users.emplace_back("Andrei", 31, "Cherson", true);
     users.emplace_back("Mikhail", 42, "Zaporozhe", true);
 
+    // 
+
     for (const auto& user : users) {
         user.InfoUser();
     }
