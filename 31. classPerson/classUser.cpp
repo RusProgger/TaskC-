@@ -46,7 +46,12 @@ int main() {
 
     std::vector<User> users;
 
-    
+    users.emplace_back("Ivan", 22, "Kiev", true);
+    users.emplace_back("Kirill", 40, "Lytsk", false);
+    users.emplace_back("Ivan", 22, "Kiev", true);
+    users.emplace_back("Ivan", 22, "Kiev", true);
+    users.emplace_back("Ivan", 22, "Kiev", true);
+    users.emplace_back("Ivan", 22, "Kiev", true);
 
 
     // Ivan.InfoUser();
