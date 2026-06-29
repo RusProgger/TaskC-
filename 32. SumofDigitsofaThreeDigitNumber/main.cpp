@@ -12,7 +12,7 @@ int main() {
     int tens = (number % 10);
     // summa
     int result = (one + hundreds + tens);
-    
+    std::print("{}", result);
     std::cin.get();
     return 0;
 }
