@@ -50,6 +50,7 @@ Each task is implemented as a separate program and demonstrates a specific langu
 | 29 | Distance between two points |
 | 30 | Factorial using a `while` loop |
 | 31 | `Person` class |
+| 32 | Sum of Digits of a Three-Digit Number |
 
 ---
 
@@ -144,6 +145,7 @@ This project is intended for educational purposes.
 |  29 | Расстояние между двумя точками                |
 |  30 | Факториал числа (`while`)                     |
 |  31 | Класс `Person`                                |
+|  32 | Нахождение суммы цифр трёхзначного числа      |
 
 ---
 
