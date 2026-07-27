@@ -51,6 +51,7 @@ Each task is implemented as a separate program and demonstrates a specific langu
 | 30 | Factorial using a `while` loop |
 | 31 | `Person` class |
 | 32 | Sum of Digits of a Three-Digit Number |
+| 33 | Convert String to Uppercase |
 
 ---
 
@@ -146,6 +147,7 @@ This project is intended for educational purposes.
 |  30 | Факториал числа (`while`)                     |
 |  31 | Класс `Person`                                |
 |  32 | Нахождение суммы цифр трёхзначного числа      |
+|  33 | Перевод строки в верхний регистр              |
 
 ---
 
