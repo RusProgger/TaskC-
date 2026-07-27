@@ -2,6 +2,16 @@
 #include <cctype>
 #include <string>
 
+std::string funUpperText(std::string text) {
+
+    for(int i = 0; i < text.length(); i++) {
+        if(islower(text[i])) {
+            text[i] = toupper(text[i]);
+        }
+    }
+    
+    return text;
+}
 
 
 int main() {
@@ -16,6 +26,10 @@ int main() {
         std::cout << "String is empty!\n";
         return 1;
     }
+
+    std::string result  = funUpperText(text);
+
+    std::cout << result;
 
     return 0;
 }
