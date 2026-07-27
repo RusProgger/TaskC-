@@ -7,9 +7,11 @@ std::string funUpperText(std::string text) {
     for(int i = 0; i < text.length(); i++) {
         if(islower(text[i])) {
             text[i] = toupper(text[i]);
+        } else {
+            text[i] = tolower(text[i]);
         }
     }
-    
+
     return text;
 }
 
