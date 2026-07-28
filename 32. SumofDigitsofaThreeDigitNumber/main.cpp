@@ -3,7 +3,7 @@
 
 int main() {
 
-    int number {};
+    unsigned int number {};
     std::print("Enter number: ");
     std::cin >> number;
 
