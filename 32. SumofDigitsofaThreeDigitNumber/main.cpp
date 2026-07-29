@@ -4,17 +4,23 @@
 
 int main() {
 
-    unsigned int number {};
-    std::print("Enter number: ");
-    std::cin >> number;
+    int number {};
+
+    do {
+
+        std::print("Enter number: ");
+        std::cin >> number;
 
     // обработка ошибки
 
-    if(std::cin.fail()) {
-        std::cin.clear();
-        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-        std::cout << "Ошибка!! Это не число..\n";
-    }
+        if(std::cin.fail()) {
+            std::cin.clear();
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            std::cout << "Error! Not is number...\n";
+            return 1;
+        }
+    }while(number != 0);
+   
 
     int one = (number / 100);
     int hundreds = (number / 10) % 10;
