@@ -21,10 +21,12 @@ int main() {
     int one = (number / 100);
     int hundreds = (number / 10) % 10;
     int tens = (number % 10);
+
+    
     // summa
     int result = (one + hundreds + tens);
     std::print("{}", result);
     std::cin.get();
-    
+
     return 0;
 }
