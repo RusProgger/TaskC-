@@ -17,7 +17,7 @@ int main() {
             std::cin.clear();
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
             std::cout << "Error! Not is number...\n";
-            return 1;
+            continue;
         }
     }while(number != 0);
    
