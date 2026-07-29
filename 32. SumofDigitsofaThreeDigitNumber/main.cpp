@@ -25,7 +25,7 @@ int main() {
 
     // summa
     int result = (one + hundreds + tens);
-    std::print("{}", result);
+    std::print("Summa: {}", result);
     std::cin.get();
 
     return 0;
