@@ -1,4 +1,5 @@
 #include <iostream>
+#include <limits>
 #include <print>
 
 int main() {
@@ -6,6 +7,8 @@ int main() {
     unsigned int number {};
     std::print("Enter number: ");
     std::cin >> number;
+
+    // обработка ошибки
 
     int one = (number / 100);
     int hundreds = (number / 10) % 10;
