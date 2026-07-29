@@ -15,14 +15,14 @@ int main() {
         std::cin.clear();
         std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
         std::cout << "Error! Not is number...\n";
-        continue;
+        return 1;
     }
 
     int one = (number / 100);
     int hundreds = (number / 10) % 10;
     int tens = (number % 10);
 
-    
+
     // summa
     int result = (one + hundreds + tens);
     std::print("{}", result);
