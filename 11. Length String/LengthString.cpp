@@ -3,6 +3,8 @@
 
 int main() {
 
+
+     // length string
      std::string name;
      std::getline(std::cin, name);
      std::cout << name.size() << std::endl;
